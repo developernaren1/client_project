@@ -1,0 +1,150 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+/* .upp{
+    background-color: yellow;
+    text-align: center;
+} */
+
+
+.dog{
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 25px;
+}
+.dog img{
+    width: 100%;
+}
+#main{
+    text-align: center;
+    
+}
+.parent{
+    /* border-radius: 20px; */
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+   
+}
+.child{
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.parent:hover .child{
+    transform: scale(1.1);
+    opacity: .70;
+    
+}
+.child1{
+    background-size: cover;
+    transition-duration: 1s;
+    
+}
+
+.parent:hover .child1{
+    transform: scale(1.1);
+    opacity: .70;  
+}
+.child2{
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.parent:hover .child2{
+    transform: scale(1.1);
+    opacity: .70;  
+}
+.child3{
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.parent:hover .child3{
+    transform: scale(1.1);
+    opacity: .70;  
+}
+.child4{
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.parent:hover .child4{
+    transform: scale(1.1);
+    opacity: .70;  
+}
+.child5{
+    background-size: cover;
+    transition-duration: 1s;
+}
+
+.parent:hover .child5{
+    transform: scale(1.1);
+    opacity: .70;  
+    
+}
+.second{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 70px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.mother{
+        
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        margin-bottom: 30px;
+       
+}
+.child6{
+    background-size: cover;
+    transition-duration: 1s;
+    
+}
+.mother:hover .child6{
+    transform: scale(1.1);
+    opacity: .70;  
+    
+}
+.child7{
+    background-size: cover;
+    transition-duration: 1s;
+}
+.mother:hover .child7{
+    transform: scale(1.1);
+    opacity: .70;  
+    
+}
+.child8{
+    background-size: cover;
+    transition-duration: 1s;
+}
+.mother:hover .child8{
+    transform: scale(1.1);
+    opacity: .70;  
+    
+}
+.third{
+    margin-left: 70px;
+    justify-content: space-around;
+}
+.fourth{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+
+
